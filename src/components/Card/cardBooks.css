@@ -1,0 +1,112 @@
+.card-wrapper {
+	max-width: 330px;
+	height: 260px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding: 8px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.left-card {
+	width: 130px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 12px;
+	height: 100% !important;
+}
+
+.left-card img {
+	width: 123px;
+	height: 170px;
+}
+
+.left-card-text p {
+	font-weight: 400;
+	margin: 0;
+	color: #4d4d4d;
+}
+
+p.book-title {
+	font-size: 12px;
+	line-height: 128.52%;
+}
+
+p.author,
+p.rating {
+	font-style: normal;
+	font-size: 10px;
+	line-height: 128.52%;
+}
+
+p.rating span {
+	color: rgba(77, 77, 77, 1);
+}
+
+p.author {
+	margin: 5px 0;
+}
+
+.right-card {
+	height: 100%;
+	width: 120px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.borrowed h5,
+.submission h5 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 128.52%;
+	margin: 0;
+	color: #4d4d4d;
+}
+
+.borrowed p,
+.submission p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 128.52%;
+	color: #747373;
+	margin-top: 10px;
+}
+
+.btn-borrowed {
+	width: 100%;
+	height: 40px;
+	left: 163px;
+	top: 141px;
+	outline: none;
+	border: none;
+	background: #a0a0a0;
+	border-radius: 5px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 128.52%;
+	text-align: center;
+	color: #ffffff;
+}
+
+.btn-return {
+	width: 100%;
+	height: 40px;
+	background: #ffffff;
+	border: 1px solid #f76b56;
+	border-radius: 5px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 128.52%;
+	text-align: center;
+	color: #f76b56;
+	margin-top: 15px;
+}

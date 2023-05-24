@@ -1,0 +1,129 @@
+form {
+	width: 565px;
+	height: 620px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px 70px 2px 70px;
+	border-radius: 10px;
+	z-index: 2;
+	margin: auto;
+	background: #ffffff;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+.welcome-text {
+	margin: 25px 0 0 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: #4d4d4d;
+}
+
+.sign-text {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 128.52%;
+	text-align: center;
+	color: #ababab;
+	margin: 14px 0 42px 0;
+}
+
+.input-wrapper {
+	width: 100%;
+}
+
+.input-wrapper.email {
+	margin: 0 0 18px 0;
+}
+input#username,
+input#password {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 16px;
+	gap: 8px;
+	background: #ffffff;
+	border: 1px solid #dcd9d9;
+	border-radius: 8px;
+	flex: none;
+	order: 1;
+	align-self: stretch;
+	flex-grow: 0;
+}
+
+input#username:focus,
+input#password:focus {
+	outline: 1.1px solid blue;
+}
+
+label.username,
+label.password {
+	display: block !important;
+	font-weight: bold;
+}
+
+.remember-wrapper {
+	width: 100%;
+	margin: 30px 0 0 0;
+}
+
+span.forgot {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 100%;
+	text-decoration-line: underline;
+	color: #4d4d4d;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+button.login {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 16px;
+	width: 422px;
+	height: 48px;
+	background: #fa7c54;
+	border-radius: 8px;
+	outline: none;
+	border: none;
+	margin: 20px 0 0 0;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 100%;
+	color: #ffffff;
+}
+
+.footer-form {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px;
+}
+
+p.new-user {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 100%;
+	color: #4d4d4d;
+	margin: 0;
+}
+
+p.new-user span {
+	text-decoration: underline;
+}

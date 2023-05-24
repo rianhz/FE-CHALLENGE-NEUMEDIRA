@@ -1,0 +1,15 @@
+.main-content-header {
+	display: flex;
+}
+
+.main-content-header span {
+	color: #868686;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 128.52%;
+	flex: none;
+	order: 5;
+	flex-grow: 0;
+	padding: 0 38px;
+	cursor: pointer;
+}
